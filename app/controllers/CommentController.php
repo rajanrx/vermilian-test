@@ -35,7 +35,7 @@ class CommentController extends Controller {
         $comments = Comment::find()
           ->limit($params['page-size'])
           ->offset($params['page-offset'])
-          ->orderBy('date asc')
+          ->orderBy('date desc')
           ->all();
 
         echo $this->render('index', [
@@ -133,6 +133,11 @@ class CommentController extends Controller {
      */
     protected function actionForm() {
         $params = Yii::$app->request->post();
+        Yii::$app->view->registerJsFile('/js/jquery.validate.js', [
+          'depends' => [
+            JqueryAsset::className()
+          ]
+        ]);
         Yii::$app->view->registerJsFile('/js/site.js', [
           'depends' => [
             JqueryAsset::className()

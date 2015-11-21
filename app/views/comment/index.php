@@ -1,6 +1,9 @@
 <?php
 use app\models\db\Comment;
 ?>
+
+<h2 class="col-sm-8 col-sm-offset-2" style="padding-left:0;color:grey; ">Vermilian Test</h2>
+
 <div class="row">
     <div class="col-sm-12">
         <?= $form ?>

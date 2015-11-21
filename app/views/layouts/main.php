@@ -25,6 +25,7 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div class="wrap">
+    <!--
     <?php
     /*NavBar::begin([
         'brandLabel' => 'My Company',
@@ -56,18 +57,21 @@ AppAsset::register($this);
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
-        <?= $content ?>
-    </div>
-</div>
 
+    </div>
+    -->
+    <?= $content ?>
+</div>
+<!--
 <footer class="footer">
-    <!--<div class="container">
+    <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
-    -->
+
 </footer>
+-->
 
 <?php $this->endBody() ?>
 </body>

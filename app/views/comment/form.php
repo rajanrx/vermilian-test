@@ -6,16 +6,16 @@
             <div class="ajax-hidden">
                 <div class="form-group" >
                     <label class="sr-only" for="c_name">Name</label>
-                    <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+                    <input type="text" id="name" class="form-control" name="name" placeholder="Name" required>
                 </div>
 
                 <div class="form-group" >
                     <label class="sr-only" for="c_email">Email</label>
-                    <input type="email" id="email" class="form-control" name="email" placeholder="E-mail">
+                    <input type="email" id="email" class="form-control" name="email" placeholder="E-mail" required>
                 </div>
 
                 <div class="form-group">
-                    <textarea class="form-control" id="comment" name="comment" rows="7" placeholder="Comment"></textarea>
+                    <textarea class="form-control" id="comment" name="comment" rows="7" placeholder="Comment" required email></textarea>
                 </div>
 
                 <button type="submit" id="js-add-new-comment" class="btn btn-lg btn-block" style="background: gray;color: white;"  >Add Comment </button>

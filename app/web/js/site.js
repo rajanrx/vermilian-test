@@ -1,5 +1,12 @@
 $('#js-add-new-comment').click(function () {
     var form = $(this).closest('form');
+
+    form.validate();
+
+    if (form.valid() == false){
+        return false;
+    }
+
     var data = form.serialize();
 
     // clean up view response before submit
