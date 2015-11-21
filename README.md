@@ -1,18 +1,18 @@
-# vermilian-test
+#Vermilian-test
 Test for UltraData
 
-#installtion procedure
+#Installtion procedure
 1. go to dir `app`
 2. do `composer install` (@see https://getcomposer.org/ for composer installation)
 3. make app/web as a DOCUMENT ROOT or browse to http://[WORKING_DIR/DOMAIN]/app/web to see the results
  
-#v1
+#Version 1.0
  1. Implemented a simple comment Create and View operations in one page app
     - Uses Yii framework
     - Uses jQuery validation library for form validation
     - Uses Bootstrap CSS framework
  
-#future enhancements
+#Future enhancements
  1. Handle error properly in javascript
  2. Add pagination or `show more` button to show more comments. Currently the limit is set to `recent 10 comments`
  3. Use better styling in the markup
