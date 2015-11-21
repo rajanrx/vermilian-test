@@ -2,9 +2,10 @@
 Test for UltraData
 
 #Installtion procedure
-1. go to dir `app`
-2. do `composer install` (@see https://getcomposer.org/ for composer installation)
-3. make app/web as a DOCUMENT ROOT or browse to http://[WORKING_DIR/DOMAIN]/app/web to see the results
+1. Go to dir `app` on the terminal
+2. Execute `composer install` (@see https://getcomposer.org/ for composer installation) on the terminal
+3. Import `app/data/db/setup_v1.sql` to setup a db without data or `app/data/db/migration.sql` to install db and some sample data
+4. Make app/web as a DOCUMENT ROOT or browse to http://[WORKING_DIR/DOMAIN]/app/web to see the results
  
 #Version 1.0
  1. Implemented a simple comment Create and View operations in one page app
