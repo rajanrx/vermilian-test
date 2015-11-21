@@ -3,7 +3,7 @@ $('#js-add-new-comment').click(function () {
     var data = form.serialize();
 
     // clean up view response before submit
-    $('.js-add-new-ajax-response').html('');
+    $('.js-add-new-ajax-response').html('&nbsp;');
 
     // Make an ajax call to add a new comment
     $.ajax({

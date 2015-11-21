@@ -1,6 +1,6 @@
 <div class="row">
 
-    <div class="col-sm-8 col-sm-offset-2">
+    <div class="col-sm-8 col-sm-offset-2 block-box">
 
         <form id="contact-form" role="form">
             <div class="ajax-hidden">
@@ -18,9 +18,9 @@
                     <textarea class="form-control" id="comment" name="comment" rows="7" placeholder="Comment"></textarea>
                 </div>
 
-                <button type="submit" id="js-add-new-comment" class="btn btn-lg btn-block  fadeInUp animated"  >Add Comment </button>
+                <button type="submit" id="js-add-new-comment" class="btn btn-lg btn-block" style="background: gray;color: white;"  >Add Comment </button>
             </div>
-            <div class="js-add-new-ajax-response"></div>
+            <div class="js-add-new-ajax-response warning" style='color:red;'>&nbsp;</div>
         </form>
 
     </div>

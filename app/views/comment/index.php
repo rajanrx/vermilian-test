@@ -9,8 +9,8 @@ use app\models\db\Comment;
 
 <div class="row" id="js-comment-list">
     <?php if (!count($comments)) { ?>
-        <div class="col-sm-12" class="js-no-comment">
-            <p> No comments yet ! <a href="#">Add more</a></p>
+        <div class="col-sm-8 js-no-comment col-sm-offset-2 block-box">
+            <p> No comments yet ! Be the first one to add new comment.</p>
         </div>
     <?php }
     else { ?>
